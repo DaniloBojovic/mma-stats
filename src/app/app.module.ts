@@ -1,14 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FighterListComponentComponent } from './fighters/fighter-list-component.component';
-import { HttpClientModule } from '@angular/common/http';
+import { JwPaginationComponent } from 'jw-angular-pagination';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FighterListComponentComponent
+    FighterListComponentComponent,
+    JwPaginationComponent
   ],
   imports: [
     BrowserModule,
