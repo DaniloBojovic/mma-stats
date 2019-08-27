@@ -1,0 +1,100 @@
+[
+  {
+    "imageUrl": "https://image.cleveland.com/home/cleve-media/width600/img/ent_impact_home/photo/stipe-modelo-2jpg-1ae5cb348a9a1eca.jpg",
+    "name": "Stipe Miocic",
+    "nickname": "Stoic",
+    "category": "HW",
+    "record": "19:2"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/originals/31/04/51/31045186d282a502bfaaaed2851519e1.jpg",
+    "name": "Francis Ngannou",
+    "nickname": "The Predator",
+    "category": "HW",
+    "record": "14:3"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/474x/38/3f/06/383f06d0871bb7f78ae2f493b3c1a120.jpg",
+    "name": "Alexander Gustafsson",
+    "nickname": "The Mauler",
+    "category": "LHW",
+    "record": "21:5"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/originals/3a/6d/9f/3a6d9fe4f9ffd0c039bf20b882974ddf.jpg",
+    "name": "Vitor Belfort",
+    "nickname": "The Phenom",
+    "category": "LHW",
+    "record": "21:5"
+  },
+  {
+    "imageUrl": "https://ih0.redbubble.net/image.404589068.7704/poster%2C210x230%2Cf8f8f8-pad%2C210x230%2Cf8f8f8.u1.jpg",
+    "name": "Jon Jones",
+    "nickname": "Bones",
+    "category": "LHW",
+    "record": "21:0"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/474x/88/8b/15/888b15768d078f13a8f1b1d79f173c72.jpg",
+    "name": "Daniel Cormier",
+    "nickname": "DC",
+    "category": "LHW",
+    "record": "24:2"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/474x/38/3f/06/383f06d0871bb7f78ae2f493b3c1a120.jpg",
+    "name": "Alexander Gustafsson",
+    "nickname": "The Mauler",
+    "category": "LHW",
+    "record": "21:5"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/originals/3a/6d/9f/3a6d9fe4f9ffd0c039bf20b882974ddf.jpg",
+    "name": "Vitor Belfort",
+    "nickname": "The Phenom",
+    "category": "LHW",
+    "record": "21:5"
+  },
+  {
+    "imageUrl": "https://ih0.redbubble.net/image.404589068.7704/poster%2C210x230%2Cf8f8f8-pad%2C210x230%2Cf8f8f8.u1.jpg",
+    "name": "Jon Jones",
+    "nickname": "Bones",
+    "category": "LHW",
+    "record": "21:0"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/474x/88/8b/15/888b15768d078f13a8f1b1d79f173c72.jpg",
+    "name": "Daniel Cormier",
+    "nickname": "DC",
+    "category": "LHW",
+    "record": "24:2"
+  },
+  {
+    "imageUrl": "https://displate.com/displates/2019-02-28/bc72cdcf231dfbdac610c5280c898911_f43d4a1325abf80d12c8e2f4ace0e14d.jpg?w=280&h=392",
+    "name": "Robert Whittaker",
+    "nickname": "The Reaper",
+    "category": "MW",
+    "record": "19:2"
+  },
+  {
+    "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/stylebender-paradigm-blue.jpg",
+    "name": "Israel Adesanya",
+    "nickname": "Stylebender",
+    "category": "MW",
+    "record": "17:0"
+  },
+  {
+    "imageUrl": "https://pbs.twimg.com/media/DKLWH8kX0AECTlK.jpg",
+    "name": "Kamaru Usman",
+    "nickname": "The Nigerian Nightmare",
+    "category": "WW",
+    "record": "15:1"
+  },
+  {
+    "imageUrl": "https://i.pinimg.com/originals/c2/06/82/c2068266a24194f40a84e49b443d1dc4.jpg",
+    "name": "Tyron Woodley",
+    "nickname": "The Chosen One",
+    "category": "WW",
+    "record": "19:4"
+  }
+]

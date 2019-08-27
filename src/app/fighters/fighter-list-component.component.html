@@ -1,0 +1,48 @@
+<div style="text-align:center">
+    {{pageTitle}}
+    <img width="300" alt="Angular Logo"
+        src="https://i.etsystatic.com/13221305/r/il/bd0a92/1217464914/il_794xN.1217464914_5gdf.jpg" />
+    <div><button class='btn btn-primary' (click)='toggleFighters()'>{{showFighters ? 'Hide' : 'Show'}} Fighters</button>
+        <hr>
+        <!-- <button class='btn btn-primary' (click)="filterFighters('HW')" *ngIf="showFighters">Heavyweights</button>
+        <button class='btn btn-primary' (click)="filterFighters('LHW')" *ngIf="showFighters">Light Heavyweights</button> -->
+
+        <div class="container">
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Weight Class
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" (click)="filterFighters('HW')" *ngIf="showFighters">Heavyweights</a>
+                    <a class="dropdown-item" (click)="filterFighters('LHW')" *ngIf="showFighters">Light Heavyweights</a>
+                    <a class="dropdown-item" (click)="filterFighters('MW')" *ngIf="showFighters">Middleweight</a>
+                    <a class="dropdown-item" (click)="filterFighters('WW')" *ngIf="showFighters">Welterweight</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class='table-responsive' *ngIf='showFighters'>
+        <table class='table table-striped table-responsive-md btn-table'>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>NickName</th>
+                    <th>Category</th>
+                    <th>Img</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let fighter of filteredFighters'>
+                    <td>{{fighter.name}}</td>
+                    <td>{{fighter.nickname}}</td>
+                    <td>{{fighter.category}}</td>
+                    <td>
+                        <img [src]='fighter.imageUrl' width="200" height="200">
+                    </td>
+                    <td><a href="#" (click)="showRecord(fighter.name)">Record</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
